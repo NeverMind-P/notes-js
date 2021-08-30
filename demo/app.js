@@ -40,7 +40,7 @@ noteManager.onNoteRemove = (note) => {
 const newNoteBtn = document.querySelector('.new-note-btn');
 newNoteBtn.onclick = () => {
   noteManager.prependNote({
-    title: '',
-    body: ''
+    title: 'Enter title',
+    body: 'Enter description'
   })
 };
